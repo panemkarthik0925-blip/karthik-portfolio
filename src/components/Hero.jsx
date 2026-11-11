@@ -41,9 +41,13 @@ function Hero() {
             Explore My Work <FiArrowUpRight />
           </a>
 
-          <a href="/Panem_Karthik_Resume.pdf" download className="secondary-btn">
-            Download Resume <FiDownload />
-          </a>
+         <a
+  href={`${import.meta.env.BASE_URL}Panem_Karthik_Resume.pdf`}
+  target="_blank"
+  rel="noreferrer"
+>
+  View Resume
+</a>
         </div>
 
         
@@ -78,7 +82,10 @@ function Hero() {
 
       <div className="hero-image-wrapper">
         <div className="profile-frame">
-          <img src="/profile.jpg" alt="Karthik" />
+          <img
+  src={`${import.meta.env.BASE_URL}profile.jpg`}
+  alt="Profile"
+/>
         </div>
       </div>
     </section>
