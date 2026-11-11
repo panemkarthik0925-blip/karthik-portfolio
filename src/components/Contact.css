@@ -1,0 +1,311 @@
+
+/* =====================================
+   CONTACT SECTION
+===================================== */
+
+#contact.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 85px 24px;
+
+  color: #f5f3ff;
+  text-align: center;
+  scroll-margin-top: 90px;
+}
+
+/* =====================================
+   SECTION HEADING
+===================================== */
+
+#contact .section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 0 22px;
+}
+
+#contact .eyebrow {
+  margin: 0 0 16px;
+
+  color: #a58aff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#contact .section-heading hr {
+  width: 72px;
+  height: 3px;
+  margin: 0 0 22px;
+
+  border: 0;
+  border-radius: 10px;
+
+  background: linear-gradient(90deg, #a58aff, #e1b9ff);
+}
+
+#contact .section-heading h2 {
+  max-width: 100%;
+  margin: 0;
+
+  color: #f5f3ff;
+  font-size: clamp(32px, 4.5vw, 46px);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -1.5px;
+
+  overflow-wrap: anywhere;
+}
+
+#contact .gradient-text {
+  color: #a58aff;
+  background: linear-gradient(90deg, #a58aff, #e1b9ff);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =====================================
+   DESCRIPTION
+===================================== */
+
+#contact .section-description {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto 28px;
+
+  color: #bcb9ce;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9;
+
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+/* =====================================
+   CONTACT BUTTON
+===================================== */
+
+#contact > .primary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-height: 48px;
+  margin: 0 0 34px;
+  padding: 13px 23px;
+
+  border: 1px solid transparent;
+  border-radius: 9px;
+
+  background: linear-gradient(100deg, #a58aff, #9272f4);
+  color: #11101a;
+
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+#contact > .primary-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(165, 138, 255, 0.25);
+}
+
+#contact > .primary-btn svg {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+/* =====================================
+   SOCIAL LINKS
+===================================== */
+
+#contact .contact-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+
+  width: 100%;
+  margin: 0;
+}
+
+/* Individual social link */
+
+#contact .contact-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-width: 130px;
+  min-height: 46px;
+  padding: 11px 18px;
+
+  border: 1px solid #39304f;
+  border-radius: 9px;
+
+  background: #171625;
+  color: #d0c1ff;
+
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+#contact .contact-socials a:hover {
+  transform: translateY(-3px);
+  border-color: #a58aff;
+  background: rgba(165, 138, 255, 0.1);
+}
+
+#contact .contact-socials a svg {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+/* =====================================
+   KEYBOARD ACCESSIBILITY
+===================================== */
+
+#contact .primary-btn:focus-visible,
+#contact .contact-socials a:focus-visible {
+  outline: 2px solid #c5adff;
+  outline-offset: 4px;
+}
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 760px) {
+  #contact.contact-section {
+    padding: 65px 24px;
+  }
+
+  #contact .section-heading h2 {
+    font-size: clamp(30px, 5vw, 40px);
+  }
+
+  #contact .section-description {
+    max-width: 520px;
+    font-size: 13px;
+  }
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 520px) {
+  #contact.contact-section {
+    padding: 52px 18px;
+  }
+
+  #contact .section-heading {
+    margin-bottom: 18px;
+  }
+
+  #contact .eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.8px;
+  }
+
+  #contact .section-heading h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  #contact .section-heading hr {
+    margin-bottom: 20px;
+  }
+
+  #contact .section-description {
+    margin-bottom: 24px;
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  #contact > .primary-btn {
+    min-height: 46px;
+    margin-bottom: 28px;
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+
+  #contact .contact-socials {
+    gap: 12px;
+  }
+
+  #contact .contact-socials a {
+    min-width: 120px;
+    min-height: 44px;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 360px) {
+  #contact.contact-section {
+    padding: 44px 14px;
+  }
+
+  #contact .section-heading h2 {
+    font-size: 28px;
+  }
+
+  #contact .contact-socials {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #contact .contact-socials a {
+    width: 100%;
+  }
+}
+
+/* =====================================
+   REDUCED MOTION
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  #contact .primary-btn,
+  #contact .contact-socials a {
+    transition: none;
+  }
+
+  #contact .primary-btn:hover,
+  #contact .contact-socials a:hover {
+    transform: none;
+  }
+}

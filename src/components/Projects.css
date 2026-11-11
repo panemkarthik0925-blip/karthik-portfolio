@@ -1,0 +1,366 @@
+
+/* =====================================
+   PROJECTS SECTION
+===================================== */
+
+#projects.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 75px 24px;
+  color: #f5f3ff;
+  scroll-margin-top: 90px;
+}
+
+/* Section heading */
+
+#projects .section-heading {
+  width: 100%;
+  margin: 0 0 32px;
+  text-align: left;
+}
+
+#projects .eyebrow {
+  margin: 0 0 12px;
+  color: #a58aff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#projects .section-heading h2 {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+}
+
+#projects .gradient-text {
+  color: #a58aff;
+  background: linear-gradient(90deg, #a58aff, #e1b9ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Optional horizontal divider */
+
+#projects .section-heading hr {
+  width: 72px;
+  height: 3px;
+  margin: 0 0 18px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #a58aff, #e1b9ff);
+}
+
+/* =====================================
+   PROJECT GRID
+===================================== */
+
+#projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+  width: 100%;
+}
+
+/* =====================================
+   PROJECT CARD
+===================================== */
+
+#projects .project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  min-width: 0;
+  height: 100%;
+  padding: 26px;
+
+  border: 1px solid #302b46;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    145deg,
+    rgba(27, 24, 43, 0.98),
+    rgba(15, 15, 27, 0.98)
+  );
+
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.14);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+#projects .project-card:hover {
+  transform: translateY(-5px);
+  border-color: #8066c4;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
+/* Number and card top */
+
+#projects .project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  min-height: 36px;
+  margin-bottom: 22px;
+}
+
+#projects .project-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 42px;
+  min-height: 34px;
+  padding: 6px 10px;
+
+  border: 1px solid #45375f;
+  border-radius: 8px;
+
+  background: rgba(165, 138, 255, 0.09);
+  color: #bca6ff;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Category */
+
+#projects .project-category {
+  margin: 0 0 10px;
+  color: #a58aff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+/* Project title */
+
+#projects .project-card h3 {
+  margin: 0 0 14px;
+  color: #f5f3ff;
+
+  font-size: clamp(19px, 1.8vw, 22px);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+
+  overflow-wrap: anywhere;
+}
+
+/* Project description */
+
+#projects .project-description {
+  margin: 0 0 22px;
+  color: #b4b1c7;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.85;
+
+  overflow-wrap: anywhere;
+}
+
+/* =====================================
+   TECHNOLOGY TAGS
+===================================== */
+
+#projects .tech-tags {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  gap: 8px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 22px;
+}
+
+#projects .tech-tags span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  padding: 7px 10px;
+
+  border: 1px solid #39304f;
+  border-radius: 6px;
+
+  background: rgba(165, 138, 255, 0.08);
+  color: #d0c1ff;
+
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+}
+
+/* =====================================
+   GITHUB LINK
+===================================== */
+
+#projects .project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+
+  gap: 10px;
+  min-height: 42px;
+  margin-top: 0;
+  padding: 10px 13px;
+
+  border: 1px solid #514071;
+  border-radius: 8px;
+
+  background: rgba(165, 138, 255, 0.08);
+  color: #d5c6ff;
+
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+#projects .project-link:hover {
+  transform: translateY(-2px);
+  border-color: #a58aff;
+  background: rgba(165, 138, 255, 0.16);
+}
+
+#projects .project-link svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+#projects .coming-soon {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  color: #aaa7bd;
+  font-size: 12px;
+}
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 1000px) {
+  #projects.section {
+    padding: 65px 28px;
+  }
+
+  #projects .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  #projects .project-card {
+    padding: 23px;
+  }
+
+  #projects .project-card:last-child {
+    grid-column: 1 / -1;
+  }
+
+  #projects .project-card h3 {
+    font-size: 21px;
+  }
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 600px) {
+  #projects.section {
+    padding: 48px 18px;
+  }
+
+  #projects .section-heading {
+    margin-bottom: 25px;
+  }
+
+  #projects .section-heading h2 {
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+
+  #projects .projects-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  #projects .project-card,
+  #projects .project-card:last-child {
+    grid-column: auto;
+    padding: 22px 19px;
+  }
+
+  #projects .project-top {
+    margin-bottom: 18px;
+  }
+
+  #projects .project-card h3 {
+    font-size: 21px;
+  }
+
+  #projects .project-description {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  #projects .tech-tags {
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+
+  #projects .tech-tags span {
+    padding: 7px 9px;
+    font-size: 10px;
+  }
+}
+
+/* Extra-small mobile screens */
+
+@media (max-width: 360px) {
+  #projects.section {
+    padding-inline: 14px;
+  }
+
+  #projects .project-card,
+  #projects .project-card:last-child {
+    padding: 19px 15px;
+  }
+
+  #projects .section-heading h2 {
+    font-size: 30px;
+  }
+
+  #projects .project-card h3 {
+    font-size: 19px;
+  }
+}
