@@ -47,7 +47,7 @@ function Hero() {
   rel="noreferrer"
   className="resume"
 >
-  View Resume
+  View Resume <FiArrowUpRight />
 </a>
         </div>
 
