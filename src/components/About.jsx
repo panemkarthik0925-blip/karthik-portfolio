@@ -18,8 +18,8 @@ function About() {
 
 Welcome to my portfolio! I am an enthusiastic and motivated developer with a strong interest in web development and software engineering. I enjoy creating interactive, user-friendly, and visually appealing websites while continuously learning new technologies and improving my technical skills.
 
-I have experience working with technologies such as HTML, CSS, and JavaScript,React.js,Node.js,Expressjs,MongoDb and I enjoy turning creative ideas into functional web applications. 
-<br />Through projects like StudentHub , Library Management system, Birthday Suprise Websites, I have explored designing engaging user experiences and building interactive web solutions.
+I have experience working with technologies such as HTML, CSS, and JavaScript,React.js,Node.js,Expressjs,MongoDb,Django and I enjoy turning creative ideas into functional web applications. 
+<br />Through projects like StudentHub , Library Management system, django_task_manager Websites, I have explored designing engaging user experiences and building interactive web solutions.
 
 I am eager to learn, solve real-world problems, collaborate with others, and contribute to innovative projects while growing as a software developer.
           </p>

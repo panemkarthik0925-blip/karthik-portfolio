@@ -28,7 +28,7 @@ function Hero() {
           Karthik
           <br />
           <span className="gradient-text">
-            Software Developer
+            
           </span>
         </h1>
 
@@ -45,6 +45,7 @@ function Hero() {
   href={`${import.meta.env.BASE_URL}Panem_Karthik_Resume.pdf`}
   target="_blank"
   rel="noreferrer"
+  className="resume"
 >
   View Resume
 </a>
