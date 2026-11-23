@@ -3,15 +3,6 @@ import { motion } from "framer-motion";
 import "./Projects.css";
 
 const projects = [
-  // {
-  //   number: "01",
-  //   title: "Birthday Surprise Website",
-  //   category: "Frontend Development",
-  //   description:
-  //     "A creative and interactive birthday surprise website developed to make birthday celebrations more special and memorable. The website features personalized birthday wishes, attractive designs, animations, and interactive elements to create a delightful user experience. This project demonstrates my frontend development skills and creativity in building engaging web applications.",
-  //   technologies: ["React", "Vite", "CSS", "JavaScript"],
-  //   github: "https://github.com/panemkarthik0925-blip/suprise",
-  // },
   
   {
     number: "01",
@@ -39,6 +30,15 @@ const projects = [
       "Developed a full-stack task management web application using Python and Django, featuring user authentication, CRUD operations, task search and filtering, and a dashboard to track task progress. Designed to provide a simple and efficient way to organize daily tasks.",
     technologies: ["python","HTML", "CSS", "SQL","Django"],
     github: "https://github.com/panemkarthik0925-blip/django-task-manager",
+  },
+  {
+    number: "04",
+    title: "Birthday Surprise Website",
+    category: "Frontend Development",
+    description:
+      "A creative and interactive birthday surprise website developed to make birthday celebrations more special and memorable. The website features personalized birthday wishes, attractive designs, animations, and interactive elements to create a delightful user experience. This project demonstrates my frontend development skills and creativity in building engaging web applications.",
+    technologies: ["React", "Vite", "CSS", "JavaScript"],
+    github: "https://github.com/panemkarthik0925-blip/suprise",
   },
 ];
 
