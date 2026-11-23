@@ -20,7 +20,7 @@ const projects = [
     description:
       "Developed and deployed a full-stack student management application with admin login and complete CRUD functionality. Integrated MongoDB for persistent data storage and connected the React frontend with a Node.js and Express.js backend.",
     technologies: ["MongoDB","Express", "React", "Node.js","Vite"],
-    github: "https://panemkarthik0925-blip.github.io/StudentHub/",
+    github: "https://github.com/panemkarthik0925-blip/StudentHub",
   },
   {
     number: "02",
@@ -38,7 +38,7 @@ const projects = [
     description:
       "Developed a full-stack task management web application using Python and Django, featuring user authentication, CRUD operations, task search and filtering, and a dashboard to track task progress. Designed to provide a simple and efficient way to organize daily tasks.",
     technologies: ["python","HTML", "CSS", "SQL","Django"],
-    github: "https://panemkarthik0925-blip.github.io/django_task_manager/",
+    github: "https://github.com/panemkarthik0925-blip/library_management",
   },
 ];
 
