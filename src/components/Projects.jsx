@@ -29,7 +29,7 @@ const projects = [
     description:
       "Developed a Library Management System to manage and organize library books and records.Implemented book management features, including adding, updating, deleting, and searching for books.Designed functionality to track book issuing and returning.Created a simple, user-friendly interface for efficient library management.Improved the organization and accessibility of library records.",
     technologies: ["React.js","HTML", "CSS", "JavaScript","Vite","JSON"],
-    github: "https://panemkarthik0925-blip.github.io/library_management/",
+    github: "https://github.com/panemkarthik0925-blip/library_management",
   },
   {
     number: "03",
@@ -38,7 +38,7 @@ const projects = [
     description:
       "Developed a full-stack task management web application using Python and Django, featuring user authentication, CRUD operations, task search and filtering, and a dashboard to track task progress. Designed to provide a simple and efficient way to organize daily tasks.",
     technologies: ["python","HTML", "CSS", "SQL","Django"],
-    github: "https://github.com/panemkarthik0925-blip/library_management",
+    github: "https://github.com/panemkarthik0925-blip/django-task-manager",
   },
 ];
 
